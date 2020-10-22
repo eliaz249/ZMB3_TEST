@@ -1,0 +1,111 @@
+{
+	"name": "DelimitedText2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "cn3"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Channel Type",
+				"type": "String"
+			},
+			{
+				"name": "Pay Type",
+				"type": "String"
+			},
+			{
+				"name": "Item Category",
+				"type": "String"
+			},
+			{
+				"name": "Item ID",
+				"type": "String"
+			},
+			{
+				"name": "Item code",
+				"type": "String"
+			},
+			{
+				"name": "Item Name",
+				"type": "String"
+			},
+			{
+				"name": "Employee ID",
+				"type": "String"
+			},
+			{
+				"name": "Employee Code",
+				"type": "String"
+			},
+			{
+				"name": "Employee Name",
+				"type": "String"
+			},
+			{
+				"name": "Employee Locations",
+				"type": "String"
+			},
+			{
+				"name": "Employee Country",
+				"type": "String"
+			},
+			{
+				"name": "Manager",
+				"type": "String"
+			},
+			{
+				"name": "Department",
+				"type": "String"
+			},
+			{
+				"name": "Sales Date",
+				"type": "String"
+			},
+			{
+				"name": "Sales_Cost",
+				"type": "String"
+			},
+			{
+				"name": "Sales_Amt",
+				"type": "String"
+			},
+			{
+				"name": "Sales_Qty",
+				"type": "String"
+			},
+			{
+				"name": "Sales Type",
+				"type": "String"
+			},
+			{
+				"name": "Customer ID",
+				"type": "String"
+			},
+			{
+				"name": "Customer Name",
+				"type": "String"
+			},
+			{
+				"name": "Customer Location",
+				"type": "String"
+			},
+			{
+				"name": "Customer Country",
+				"type": "String"
+			}
+		]
+	}
+}
